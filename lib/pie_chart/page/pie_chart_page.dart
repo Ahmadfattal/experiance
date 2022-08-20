@@ -27,7 +27,7 @@ class PieChartPageState extends State {
   double ySwapDownButton = 30;
   double xSwapDownButton = 20;
  Color buttonColor=Colors.grey;
-  late Offset buttonOffset=Offset(xLocationButton, yLocationButton);
+   Offset buttonOffset=Offset(xLocationButton, yLocationButton);
 
   void onTapDown(BuildContext context, var details) {
     print('${details.globalPosition}');
